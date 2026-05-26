@@ -3,6 +3,19 @@
 End-to-end fraud detection pipeline implementing the three-phase
 unsupervised + supervised hybrid approach.
 
+---
+
+## 🔗 Run on Google Colab
+
+Try the full pipeline directly in the browser — no local setup required:
+
+👉 **[Open in Google Colab](https://colab.research.google.com/drive/1hc59lrx2HraiOfNbO06eoYz5K6JKrGt6?usp=sharing)**
+
+> Tip: The script runs end-to-end in ~30–90 seconds, so a CPU runtime is
+> fine. Switch to GPU only if you scale the dataset up significantly.
+
+---
+
 ## Architecture
 
 ```
@@ -56,6 +69,10 @@ python fraud_detection.py
 ```
 
 Runs end-to-end in roughly 30–90 seconds on CPU.
+
+> Prefer a zero-install option? Use the
+> [Google Colab notebook](https://colab.research.google.com/drive/1hc59lrx2HraiOfNbO06eoYz5K6JKrGt6?usp=sharing)
+> instead — everything runs in the browser.
 
 ## Outputs (saved to `./outputs/`)
 
